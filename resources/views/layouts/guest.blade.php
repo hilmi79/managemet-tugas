@@ -50,9 +50,11 @@
 
 
     <!-- Konten Utama -->
-    <main class="flex-fill">
-        @yield('content')
-    </main>
+    <main class="flex-fill" style="padding-top: 7rem; padding-bottom: 4rem">
+    @yield('content')
+</main>
+
+
 
     <!-- Footer -->
     <footer class="app-footer py-3">
